@@ -47,6 +47,14 @@
             display: flex;
             gap: 2rem;
             flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        nav ul li:first-child {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-right: auto;
         }
         
         nav a {
@@ -322,7 +330,7 @@
         
         p {
             margin-bottom: 1rem;
-            text-align: justify;
+            text-align: left;
         }
         
         /* Movie list styling */
@@ -346,6 +354,7 @@
     <!-- ============================================ -->
     <nav>
         <ul>
+            <li><a href="#home" style="font-size: 1.5rem; pointer-events: none; cursor: default;">CineVault</a></li>
             <li><a href="#home">Home</a></li>
             <li><a href="#watchlist">To Watch</a></li>
             <li><a href="#favorites">Grid Demo</a></li>
@@ -385,43 +394,41 @@
 
         <!-- ============================================ -->
         <!-- ASSIGNMENT REQUIREMENT #1: 10 Most Useful HTML Tags -->
-        <!-- SUBHEADER #2: HTML Tags -->
         <!-- ============================================ -->
         <section>
-            <h2>10 Most Useful HTML Tags for Web Development</h2>
-            <p>HTML (HyperText Markup Language) forms the backbone of every website. Understanding these fundamental tags is essential for any aspiring web developer. These elements structure content, create links, display media, and enable user interaction across the web.</p>
+            <h2>Top 10 Classic Movie Genres</h2>
+            <p>Cinema has evolved over decades, giving us diverse genres that define how we experience stories. Here are the 10 most influential movie genres that have shaped the film industry:</p>
             <ul>
-                <li><strong>&lt;div&gt;</strong> - The division element is a versatile container used for grouping content and creating complex layouts. It's the building block of modern web design and works seamlessly with CSS for styling.</li>
-                <li><strong>&lt;span&gt;</strong> - An inline container perfect for styling specific portions of text without breaking the flow. Ideal for highlighting words, applying different colors, or adding inline styling.</li>
-                <li><strong>&lt;a&gt;</strong> - The anchor tag creates hyperlinks, connecting pages across the internet. It can link to external websites, internal pages, email addresses, or specific sections within a page using href attributes.</li>
-                <li><strong>&lt;img&gt;</strong> - Essential for displaying images on webpages. Supports various formats including JPG, PNG, GIF, and SVG. Always include alt text for accessibility and SEO.</li>
-                <li><strong>&lt;h1&gt; to &lt;h6&gt;</strong> - Heading tags establish content hierarchy and structure. H1 is typically the main page title, while H2-H6 create sub-sections. Critical for both SEO and accessibility.</li>
-                <li><strong>&lt;p&gt;</strong> - The paragraph tag is the standard element for displaying blocks of text content. It automatically adds spacing before and after, making content more readable.</li>
-                <li><strong>&lt;ul&gt; / &lt;ol&gt;</strong> - Unordered lists create bullet points, while ordered lists create numbered sequences. Essential for organizing information, navigation menus, and step-by-step instructions.</li>
-                <li><strong>&lt;form&gt;</strong> - Creates interactive forms for collecting user input like contact information, search queries, login credentials, and survey responses. Works with input elements for data collection.</li>
-                <li><strong>&lt;button&gt;</strong> - An interactive element that triggers actions when clicked. More versatile than input buttons, supporting rich content like images and icons.</li>
-                <li><strong>&lt;section&gt;</strong> - A semantic HTML5 element that groups thematically related content. Improves code readability and helps search engines understand page structure better than generic divs.</li>
+                <li><strong>Drama</strong> - The heart of cinema, focusing on character development and emotional narratives. Films like The Godfather and Forrest Gump exemplify this genre's power to move audiences.</li>
+                <li><strong>Action</strong> - High-energy films featuring stunts, chases, and explosive sequences. The Dark Knight and Mad Max: Fury Road showcase modern action at its finest.</li>
+                <li><strong>Comedy</strong> - Designed to entertain and make audiences laugh, from slapstick to dark humor. Essential for balancing the emotional weight of dramatic cinema.</li>
+                <li><strong>Thriller</strong> - Suspenseful narratives that keep viewers on edge. Hitchcock mastered this genre, creating tension through psychological manipulation.</li>
+                <li><strong>Science Fiction</strong> - Explores futuristic concepts, technology, and humanity's place in the universe. The Matrix and Interstellar push the boundaries of imagination.</li>
+                <li><strong>Horror</strong> - Evokes fear and suspense, tapping into our primal emotions. From psychological terror to supernatural scares, this genre tests our courage.</li>
+                <li><strong>Romance</strong> - Centers on love stories and emotional connections between characters. When executed well, romance elevates any film's emotional impact.</li>
+                <li><strong>Crime</strong> - Explores the criminal underworld, heists, and moral ambiguity. Pulp Fiction and Goodfellas redefined what crime cinema could achieve.</li>
+                <li><strong>Mystery</strong> - Puzzle-like narratives where audiences piece together clues alongside protagonists. The reveal at the end defines the entire experience.</li>
+                <li><strong>Adventure</strong> - Epic journeys and quests that transport viewers to extraordinary worlds. Indiana Jones and Lord of the Rings embody the spirit of adventure.</li>
             </ul>
         </section>
 
         <!-- ============================================ -->
-        <!-- ASSIGNMENT REQUIREMENT #2: SEO Best Practices (Body Explanation) -->
-        <!-- SUBHEADER #3: SEO Information -->
-        <!-- Note: Actual SEO meta tags are in the <head> section above -->
+        <!-- ASSIGNMENT REQUIREMENT #2: SEO Best Practices -->
         <!-- ============================================ -->
         <section>
-            <h2>Important SEO Header Tags for Better Rankings</h2>
-            <p>Search Engine Optimization (SEO) is crucial for ensuring your website appears in search results when people look for relevant content. The following meta tags, placed in the HTML head section, communicate vital information to search engines like Google, Bing, and Yahoo. Proper implementation can significantly improve your site's visibility, click-through rates, and overall web traffic.</p>
+            <h2>Top 10 Directors Who Changed Cinema</h2>
+            <p>These visionary directors have shaped modern filmmaking through their unique styles, storytelling techniques, and commitment to the craft. Their influence extends far beyond their individual films:</p>
             <ul>
-                <li><strong>&lt;title&gt;</strong> - The most important SEO element. This appears as the clickable headline in search results and browser tabs. Keep it between 50-60 characters, include your primary keyword, and make it compelling to encourage clicks.</li>
-                <li><strong>&lt;meta name="description"&gt;</strong> - A concise summary (150-160 characters) that appears below your title in search results. This is your elevator pitch to potential visitors, so make it engaging and include relevant keywords naturally.</li>
-                <li><strong>&lt;meta name="keywords"&gt;</strong> - While less influential than in the past, this tag still helps categorize your content. Include 5-10 relevant keywords or phrases that describe your page content accurately.</li>
-                <li><strong>&lt;meta name="author"&gt;</strong> - Specifies who created the page content. Particularly important for blogs, news sites, and portfolios where authorship matters for credibility and copyright.</li>
-                <li><strong>&lt;meta name="viewport"&gt;</strong> - Critical for mobile SEO. This ensures your site displays correctly on smartphones and tablets. Google prioritizes mobile-friendly sites in rankings since the mobile-first indexing update.</li>
-                <li><strong>&lt;meta name="robots"&gt;</strong> - Controls how search engine crawlers interact with your page. Common values include "index, follow" (allow indexing and following links), "noindex" (don't show in results), or "nofollow" (don't follow links).</li>
-                <li><strong>&lt;meta charset="UTF-8"&gt;</strong> - Specifies character encoding, ensuring text displays correctly across different browsers and languages. UTF-8 supports virtually all characters from all writing systems.</li>
-                <li><strong>&lt;link rel="canonical"&gt;</strong> - Points to the preferred version of a page when you have similar or duplicate content. Prevents SEO penalties from duplicate content by consolidating ranking signals to one URL.</li>
-                <li><strong>&lt;meta property="og:title"&gt;</strong> - Part of Open Graph protocol for social media. Controls how your page appears when shared on Facebook, LinkedIn, and other platforms. Increases click-through rates from social sharing.</li>
+                <li><strong>Steven Spielberg</strong> - Master of blockbuster entertainment who brought us Jaws, E.T., Jurassic Park, and Schindler's List. His ability to blend spectacle with heart is unmatched.</li>
+                <li><strong>Christopher Nolan</strong> - Known for complex narratives and practical effects. The Dark Knight trilogy, Inception, and Interstellar showcase his mind-bending storytelling.</li>
+                <li><strong>Martin Scorsese</strong> - The godfather of crime cinema. Goodfellas, The Departed, and Casino capture the American criminal underworld with unflinching authenticity.</li>
+                <li><strong>Quentin Tarantino</strong> - Revolutionary dialogue and nonlinear storytelling define his work. Pulp Fiction and Kill Bill changed independent cinema forever.</li>
+                <li><strong>Francis Ford Coppola</strong> - Created The Godfather trilogy, arguably cinema's greatest achievement. His epic scope and character depth remain influential today.</li>
+                <li><strong>Alfred Hitchcock</strong> - The Master of Suspense who pioneered thriller techniques still used today. Psycho and Vertigo are film school essentials.</li>
+                <li><strong>Stanley Kubrick</strong> - Perfectionist visionary behind 2001: A Space Odyssey, The Shining, and A Clockwork Orange. Each frame is meticulously composed art.</li>
+                <li><strong>The Coen Brothers</strong> - Joel and Ethan Coen blend dark humor with crime drama. Fargo and No Country for Old Men showcase their unique voice.</li>
+                <li><strong>Ridley Scott</strong> - Sci-fi and historical epic specialist. Blade Runner and Gladiator demonstrate his visual mastery and world-building expertise.</li>
+                <li><strong>Bong Joon-ho</strong> - Modern master who brought Korean cinema to global prominence. Parasite's Oscar sweep marked a historic moment for international filmmaking.</li>
             </ul>
         </section>
 
@@ -462,8 +469,6 @@
                     <span>[3C] Documentary</span>
                 </div>
             </div>
-            
-            <p><em>Technical Note: Each row is a &lt;div&gt; element, and each cell is a &lt;span&gt; element. Spacing is achieved using non-breaking spaces and line breaks (&lt;br&gt;). In production websites, you would use CSS Grid (display: grid) or Flexbox (display: flex) for much better control and responsiveness.</em></p>
         </section>
 
         <!-- ============================================ -->
