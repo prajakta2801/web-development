@@ -11,7 +11,7 @@
     <meta name="keywords" content="movies, watchlist, film reviews, cinema, movie recommendations">
     <meta name="author" content="Movie Enthusiast">
     <meta name="robots" content="index, follow">
-    <title>FlickPick - Your Ultimate Movie Watchlist</title>
+    <title>CineVault - Your Ultimate Movie Watchlist</title>
     <!-- ============================================ -->
     
     <style>
@@ -255,7 +255,7 @@
         
         /* Fixed Positioning */
         .pos-fixed {
-            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             font-weight: bold;
             padding: 1rem 1.5rem;
@@ -360,8 +360,8 @@
     <!-- ============================================ -->
     <main>
         <!-- MAIN HEADER (H1) -->
-        <h1 id="home">FlickPick - Your Ultimate Movie Watchlist</h1>
-        <p>Welcome to FlickPick, the premier destination for cinephiles and casual movie-goers alike. Our platform helps you discover timeless classics, trending blockbusters, and hidden indie gems. Track what you've watched, create personalized lists, and never miss another must-see film. From Oscar winners to cult favorites, FlickPick is your companion in the wonderful world of cinema.</p>
+        <h1 id="home">CineVault - Your Ultimate Movie Watchlist</h1>
+        <p>Welcome to CineVault, the premier destination for cinephiles and casual movie-goers alike. Our platform helps you discover timeless classics, trending blockbusters, and hidden indie gems. Track what you've watched, create personalized lists, and never miss another must-see film. From Oscar winners to cult favorites, CineVault is your companion in the wonderful world of cinema.</p>
 
         <!-- ============================================ -->
         <!-- SUBHEADER #1: Top 10 Must-Watch Movies -->
@@ -513,26 +513,43 @@
             <h2>Movie Reviews - My Favorite Films</h2>
             <p>Here are my detailed thoughts on some of cinema's greatest masterpieces. Each film represents a unique vision and has left an indelible mark on the art of filmmaking.</p>
             <ul style="list-style: none;">
+                <!-- FONT SIZE #1: 16px (Pixels - Absolute Unit) -->
+                <!-- When to use: Body text that needs consistent sizing across all devices. Precise control for UI elements like buttons and navigation. Does not scale with user accessibility settings. -->
                 <li style="font-size: 16px; margin-bottom: 15px;">
                     <strong>The Shawshank Redemption</strong><br>
                     "Get busy living, or get busy dying." This film is a masterclass in hope and perseverance. Andy Dufresne's journey from wrongfully convicted banker to prison librarian to free man is nothing short of inspiring. The friendship between Andy and Red forms the emotional core, with Morgan Freeman's narration adding warmth and wisdom. Every frame is purposeful, every scene meaningful. This isn't just a prison drama-it's a profound meditation on freedom, patience, and the human spirit's resilience. The final scene on the beach in Zihuatanejo is one of cinema's most satisfying conclusions.
                 </li>
+                
+                <!-- FONT SIZE #2: 1.2em (Em - Relative to Parent) -->
+                <!-- When to use: Component-based designs where child elements should scale relative to parent font size. Useful for nested components like cards or modals. Warning: Can compound with nesting. -->
                 <li style="font-size: 1.2em; margin-bottom: 15px;">
                     <strong>Inception</strong><br>
                     Christopher Nolan's mind-bending heist thriller operates on multiple levels-literally. Dom Cobb and his team of extractors navigate through layers of dreams, where time dilates and physics bend to imagination. The film challenges viewers to question reality itself. Is the top still spinning? The ambiguous ending has sparked countless debates. Hans Zimmer's iconic score, especially "Time," amplifies every emotional beat. The practical effects, rotating hallways, and folding cities remain impressive years later. Inception proves blockbusters can be both intellectually stimulating and visually spectacular, blending action with philosophical depth.
                 </li>
+                
+                <!-- FONT SIZE #3: 1.5rem (Root Em - Relative to Root) -->
+                <!-- When to use: Modern best practice for responsive typography. Scales based on root HTML font size (typically 16px). Doesn't compound like em. Perfect for body text (1rem) and headings (1.5-3rem). Respects user accessibility preferences. -->
                 <li style="font-size: 1.5rem; margin-bottom: 15px;">
                     <strong>Parasite</strong><br>
                     Bong Joon-ho crafted a darkly comedic masterpiece that dissects class inequality with surgical precision. The Kim family's infiltration of the wealthy Park household starts as clever satire but descends into shocking tragedy. The film's metaphor-rich storytelling-the semi-basement home, the rain symbolism, the scholar's rock-adds layers upon rewatch. That jaw-dropping basement revelation midway through changes everything. Winner of four Oscars including Best Picture, Parasite transcends language barriers to deliver a universal story about capitalism, desperation, and the widening gap between rich and poor. Every frame is composed with meticulous care.
                 </li>
+                
+                <!-- FONT SIZE #4: 120% (Percentage - Relative to Parent) -->
+                <!-- When to use: Similar to em, scales relative to parent element. Intuitive for designers thinking in percentages. Good for maintaining typographic ratios and adjusting line-height. Can compound with nesting like em. -->
                 <li style="font-size: 120%; margin-bottom: 15px;">
                     <strong>The Godfather</strong><br>
                     Francis Ford Coppola's epic crime saga isn't just a mafia movie-it's an American Shakespeare. Marlon Brando's Don Vito Corleone is simultaneously terrifying and sympathetic, a family man who happens to run a criminal empire. Al Pacino's transformation from reluctant war hero Michael to cold-blooded mob boss is cinema's greatest character arc. The wedding opening, the horse head, the baptism massacre-these scenes are etched into film history. Nino Rota's haunting score and Gordon Willis's shadowy cinematography create an atmosphere of power and paranoia. Every frame is a painting, every line of dialogue quotable.
                 </li>
+                
+                <!-- FONT SIZE #5: 2vw (Viewport Width - Relative to Screen) -->
+                <!-- When to use: Font size that scales dynamically with browser width. Excellent for hero headings and landing page titles that shrink/grow with screen size. Use with caution - can become unreadable on very small or large screens. Best combined with CSS clamp() for min/max constraints. -->
                 <li style="font-size: 2vw; margin-bottom: 15px;">
                     <strong>Interstellar</strong><br>
                     Christopher Nolan takes us on humanity's most desperate mission: finding a new home among the stars. Matthew McConaughey's Cooper is a farmer-turned-astronaut willing to sacrifice everything for his children's future. The black hole Gargantua, visualized with scientific accuracy, is breathtaking. The time dilation scene where decades pass for his daughter while only minutes pass for Cooper is heartbreaking. Hans Zimmer's organ-driven score matches the cosmic scale. The bookshelf revelation in the tesseract connects science fiction with profound emotion. This film reminds us that love transcends dimensions and that exploring the unknown is part of human nature.
                 </li>
+                
+                <!-- FONT SIZE #6: 18pt (Points - Absolute Unit) -->
+                <!-- When to use: Print media exclusively. 1pt = 1/72 inch. Standard for print documents (12pt body text). Avoid for web screens - imprecise for digital displays. Only use for print stylesheets (@media print), PDF generation, or document exports. -->
                 <li style="font-size: 18pt; margin-bottom: 15px;">
                     <strong>Pulp Fiction</strong><br>
                     Quentin Tarantino revolutionized cinema with this nonlinear crime anthology. Vincent Vega and Jules Winnfield's philosophical hitmen conversations, Mia Wallace's twist contest, Butch's gold watch saga-each story interconnects brilliantly. The film's structure itself is the innovation: jumping through time, revisiting scenes from different angles, keeping audiences engaged through sheer storytelling audacity. The dialogue crackles with wit and pop culture references. Samuel L. Jackson's biblical verse before shooting is iconic. Pulp Fiction proved independent cinema could compete with Hollywood blockbusters and changed filmmaking forever.
@@ -551,21 +568,29 @@
             <p>Great films can be appreciated from multiple angles. Here's why these movies have earned their places in cinema history, examined from different critical perspectives.</p>
             
             <div class="positioning-demo">
+                <!-- POSITIONING TYPE #1: STATIC (Default) -->
+                <!-- When to use: Default behavior for 99% of page content. Elements follow normal document flow in the order they appear in HTML. Use when no special positioning is needed (paragraphs, images, standard sections). -->
                 <div class="pos-static">
                     <strong>The Narrative Perspective</strong><br>
                     Great movies tell compelling stories that resonate across time. Whether it's the redemptive arc of Andy Dufresne, the tragic fall of Michael Corleone, or the mysterious layers of Inception's dreamscape, these films understand that story is king. They hook you from the opening scene and don't let go until the credits roll.
                 </div>
                 
+                <!-- POSITIONING TYPE #2: RELATIVE -->
+                <!-- When to use: Minor position adjustments (nudging elements a few pixels) OR creating positioning context for absolutely positioned children. Element moves relative to its normal position but space is preserved. Common in component-based designs. This box is moved 20px down and 30px right from its normal position. -->
                 <div class="pos-relative">
                     <strong>The Technical Mastery Perspective</strong><br>
                     These films showcase exceptional cinematography, editing, and sound design. From the rotating hallway in Inception to the shadows in The Godfather, from Hans Zimmer's thunderous scores to the meticulous production design of Parasite, technical excellence elevates story into art. Every frame is composed with purpose.
                 </div>
                 
+                <!-- POSITIONING TYPE #3: ABSOLUTE -->
+                <!-- When to use: Elements that need precise positioning relative to a positioned ancestor. Perfect for dropdown menus, tooltips, modal close buttons, image overlays, notification badges. Removes element from normal flow so other elements ignore it. This box is positioned 50px from top and 50px from right of its parent container. -->
                 <div class="pos-absolute">
                     <strong>The Cultural Impact</strong><br>
                     These aren't just movies - they've become part of our cultural vocabulary. Lines like "Get busy living or get busy dying" and "I'm gonna make him an offer he can't refuse" have transcended their films. They've influenced countless filmmakers and changed what audiences expect from cinema.
                 </div>
                 
+                <!-- POSITIONING TYPE #4: FIXED -->
+                <!-- When to use: UI elements that must remain visible during scrolling. Essential for sticky navigation bars, "back to top" buttons, floating chat widgets, cookie consent banners, persistent sidebars. Fixed to viewport, not the page. This element stays in the same position on screen even when you scroll. -->
                 <div class="pos-fixed">
                     <strong>FIXED</strong><br>
                     Stays on scroll
@@ -577,12 +602,12 @@
 
         <!-- Contact Section -->
         <section id="contact">
-            <h2>Contact & Connect With FlickPick</h2>
-            <p>We'd love to hear from you! Whether you want to share your favorite movie recommendations, suggest additions to our must-watch list, discuss the latest releases, or provide feedback on FlickPick, we're here to connect with fellow film enthusiasts.</p>
-            <p><strong>Email:</strong> contact@flickpick.com</p>
+            <h2>Contact & Connect With CineVault</h2>
+            <p>We'd love to hear from you! Whether you want to share your favorite movie recommendations, suggest additions to our must-watch list, discuss the latest releases, or provide feedback on CineVault, we're here to connect with fellow film enthusiasts.</p>
+            <p><strong>Email:</strong> contact@cinevault.com</p>
             <p><strong>Social Media:</strong> Follow us on Twitter, Instagram, and Facebook for daily movie recommendations, behind-the-scenes trivia, and exclusive content from the world of cinema!</p>
             <p><strong>Newsletter:</strong> Subscribe to our weekly newsletter for curated film lists, streaming recommendations, and industry news delivered straight to your inbox.</p>
-            <p>FlickPick is a community-driven platform. Your suggestions help us improve and grow. Together, let's celebrate the art of filmmaking!</p>
+            <p>CineVault is a community-driven platform. Your suggestions help us improve and grow. Together, let's celebrate the art of filmmaking!</p>
         </section>
     </main>
 
@@ -591,7 +616,7 @@
     <!-- Footer positioned at bottom of page -->
     <!-- ============================================ -->
     <footer>
-        <p>&copy; 2026 FlickPick - Your Ultimate Movie Watchlist Platform</p>
+        <p>&copy; 2026 CineVault - Your Ultimate Movie Watchlist Platform</p>
         <p>Built with HTML & CSS | Web Development Self-Assessment Assignment</p>
         <p>Demonstrating: Semantic HTML, SEO Best Practices, CSS Box Model, Typography, and Positioning</p>
     </footer>
