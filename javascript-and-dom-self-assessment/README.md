@@ -2,30 +2,28 @@
 
 A web application that displays Airbnb listings from San Francisco using AJAX to load data from a JSON file.
 
-## 🔗 Live Demo
+## Live Demo
 
-**[View Live Demo](https://your-username.github.io/airbnb-listings-sf/)**
+**[View Live Demo](https://prajakta2801.github.io/javascript-and-dom-self-assessment/)**
 
-> Update this URL with your actual GitHub Pages link after deployment
-
-## ✅ Assignment Requirements
+## Assignment Requirements
 
 This project implements all required features:
 
-- ✅ **AJAX Loading**: Uses `fetch` API with `async/await` to load first 50 listings from JSON file
-- ✅ **Listing Name**: Displayed as card title
-- ✅ **Description**: Shown with HTML tags cleaned
-- ✅ **Amenities**: Parsed from JSON and displayed (first 3)
-- ✅ **Host Name**: Shown in host section
-- ✅ **Host Photo**: Displayed with fallback avatar
-- ✅ **Price**: Displayed per night
-- ✅ **Thumbnail**: Listing image with error handling
+- **AJAX Loading**: Uses `fetch` API with `async/await` to load first 50 listings from JSON file
+- **Listing Name**: Displayed as card title
+- **Description**: Shown with HTML tags cleaned
+- **Amenities**: Parsed from JSON and displayed (first 3)
+- **Host Name**: Shown in host section
+- **Host Photo**: Displayed with fallback avatar
+- **Price**: Displayed per night
+- **Thumbnail**: Listing image with error handling
 
-## 🎨 Creative Addition
+## Creative Addition
 
 **Interactive Search & Sort**: Users can search listings by name, location, or host name in real-time, and sort by price or rating. The interface shows a live count of filtered results and includes smooth hover animations on cards for better interactivity.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -38,12 +36,12 @@ This project implements all required features:
 └── README.md                       # This file
 ```
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/airbnb-listings-sf.git
-   cd airbnb-listings-sf
+   git clone https://github.com/prajakta2801/javascript-and-dom-self-assessment.git
+   cd javascript-and-dom-self-assessment
    ```
 
 2. **Start a local server** (required for AJAX to work)
@@ -60,11 +58,11 @@ This project implements all required features:
 3. **Open in browser**
    - Go to `http://localhost:8000`
 
-## 📦 Deploy to GitHub Pages
+## Deploy to GitHub Pages
 
 1. **Create repository on GitHub**
    - Go to https://github.com/new
-   - Name it `airbnb-listings-sf`
+   - Name it `javascript-and-dom-self-assessment`
    - Create repository
 
 2. **Push your code**
@@ -73,7 +71,7 @@ This project implements all required features:
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/your-username/airbnb-listings-sf.git
+   git remote add origin https://github.com/prajakta2801/javascript-and-dom-self-assessment.git
    git push -u origin main
    ```
 
@@ -82,9 +80,9 @@ This project implements all required features:
    - Click Pages (left sidebar)
    - Under "Source", select `main` branch
    - Click Save
-   - Your site will be live at: `https://your-username.github.io/airbnb-listings-sf/`
+   - Your site will be live at: `https://prajakta2801.github.io/javascript-and-dom-self-assessment/`
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
@@ -92,23 +90,17 @@ This project implements all required features:
 - Bootstrap 5
 - Fetch API (AJAX)
 
-## 📊 Data Source
+## Data Source
 
 - Real Airbnb San Francisco listings data
 - File: `airbnb_sf_listings_500.json`
 - Displays first 50 listings as required
 
-## 👤 Author
+## Author
 
-**[Your Name]**
-- GitHub: [@your-username](https://github.com/your-username)
+**Prajakta**
+- GitHub: [@prajakta2801](https://github.com/prajakta2801)
 
-## 📝 Notes
-
-- Based on class template from [john-guerra/Airbnb_Listings_demo_page](https://github.com/john-guerra/Airbnb_Listings_demo_page)
-- Built for Web Development class assignment
-- Remember to update `your-username` with your actual GitHub username!
-
-## ⚠️ Important
+## Important
 
 Make sure `airbnb_sf_listings_500.json` is in the root directory (same level as `index.html`) for the AJAX fetch to work correctly.
