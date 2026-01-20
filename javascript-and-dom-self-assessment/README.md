@@ -98,7 +98,7 @@ This project implements all required features:
 
 ## Author
 
-**Prajakta**
+**Prajakta Avachat**
 - GitHub: [@prajakta2801](https://github.com/prajakta2801)
 
 ## Important
