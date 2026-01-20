@@ -4,7 +4,7 @@ A web application that displays Airbnb listings from San Francisco using AJAX to
 
 ## Live Demo
 
-**[View Live Demo](https://prajakta2801.github.io/javascript-and-dom-self-assessment/)**
+**[View Live Demo](https://prajakta2801.github.io/web-development/javascript-and-dom-self-assessment/)**
 
 ## Assignment Requirements
 
