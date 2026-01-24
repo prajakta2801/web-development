@@ -1,0 +1,154 @@
+/* Custom CSS - Using Bootstrap as base */
+
+body {
+  font-family: 'Inter', sans-serif;
+  padding-top: 56px;
+}
+
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.navbar {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.navbar-brand {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #64748b;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-link.active {
+  color: #3b82f6;
+}
+
+.nav-link:hover {
+  color: #3b82f6;
+}
+
+.btn-primary {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+
+.badge {
+  font-weight: 500;
+  padding: 0.5rem 0.75rem;
+}
+
+.badge:hover {
+  background-color: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+h2 {
+  font-weight: 700;
+  color: #0f172a;
+  position: relative;
+  display: inline-block;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #3b82f6;
+}
+
+.text-center h2 {
+  display: block;
+}
+
+.text-center h2::after {
+  left: 50%;
+}
+
+/* Quote Banner */
+.quote-banner {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  position: relative;
+}
+
+.quote-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(30, 41, 59, 0.9) 100%);
+}
+
+.quote-banner .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Summary Box */
+.summary-box {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  line-height: 1.8;
+}
+
+.summary-box p {
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+/* Skills Section */
+.skill-section {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.skill-section h5 {
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.skill-section .badge {
+  font-size: 0.9rem;
+  padding: 0.5rem 0.85rem;
+  font-weight: 500;
+}
+
+.skill-section .badge:hover {
+  background-color: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+  cursor: pointer;
+}
