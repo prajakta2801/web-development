@@ -13,6 +13,9 @@
 
 This project is a professional portfolio website designed to showcase my educational background, technical skills, professional experience, and key achievements. The website serves as a comprehensive digital resume for potential employers, recruiters, and collaborators.
 
+**Design Document:** [View Design Document](design-document.md)
+
+
 **Key Goals:**
 
 - Present professional information in a clean, accessible format
@@ -73,8 +76,7 @@ portfolio/
 ├── resume/
 │   └── Resume_Prajakta_Avachat.pdf  # Downloadable resume
 │
-├── docs/
-│   └── design-document.md # Design planning document
+├── design-document.md     # Design planning document
 │
 ├── package.json           # Dependencies and scripts
 ├── .eslintrc.json         # ESLint configuration
