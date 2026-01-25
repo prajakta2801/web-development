@@ -24,7 +24,7 @@ This project is a professional portfolio website designed to showcase my educati
 
 ## 📸 Screenshot
 
-![Portfolio Homepage Screenshot](<img src="https://github.com/prajakta2801/web-development/blob/main/project-1-personal-website/images/portfolio.png?raw=true" alt="Portfolio Homepage Screenshot" width="100%">)
+![Portfolio Homepage Screenshot](images/portfolio.png)
 
 *Homepage featuring quote banner, hero section with photo, education, skills, and contact information*
 
@@ -32,7 +32,8 @@ This project is a professional portfolio website designed to showcase my educati
 
 ## 🎥 Video Demo
 
-**Video Presentation:** ![Click here for video link](https://drive.google.com/file/d/1-SXUevZtiKyZjnDLzAQ1q0QTUQizQ0Rl/view?usp=sharing)
+**Video Presentation:**  
+[Click here to watch the video](https://drive.google.com/file/d/1-SXUevZtiKyZjnDLzAQ1q0QTUQizQ0Rl/view?usp=sharing)
 
 *3-minute narrated walkthrough of the portfolio website*
 
