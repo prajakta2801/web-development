@@ -32,7 +32,7 @@ This project is a professional portfolio website designed to showcase my educati
 
 ## 🎥 Video Demo
 
-**Video Presentation:** https://drive.google.com/file/d/1-SXUevZtiKyZjnDLzAQ1q0QTUQizQ0Rl/view?usp=sharing
+**Video Presentation:** ![Click here for video link](https://drive.google.com/file/d/1-SXUevZtiKyZjnDLzAQ1q0QTUQizQ0Rl/view?usp=sharing)
 
 *3-minute narrated walkthrough of the portfolio website*
 
