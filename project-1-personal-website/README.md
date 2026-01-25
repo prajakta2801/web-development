@@ -25,7 +25,7 @@ This project is a professional portfolio website designed to showcase my educati
 
 ## 📸 Screenshot
 
-![Portfolio Homepage Screenshot](images/portfolio.png)
+![Portfolio Homepage Screenshot](https://prajakta2801.github.io/web-development/project-1-personal-website/images/portfolio.png)
 
 _Homepage featuring quote banner, hero section with photo, education, skills, and contact information_
 
