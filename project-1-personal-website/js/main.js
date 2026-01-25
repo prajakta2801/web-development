@@ -1,5 +1,9 @@
 // Main JavaScript Module - ES6+
+// Creative Component: Enhanced Smooth Scroll with Progress Indicator
 
+// ===================================
+// Smooth Scroll Progress Indicator (Creative Component)
+// ===================================
 class ScrollProgressIndicator {
   constructor() {
     this.createProgressBar();
@@ -8,6 +12,7 @@ class ScrollProgressIndicator {
   }
 
   createProgressBar() {
+    // Create progress bar element
     const progressBar = document.createElement('div');
     progressBar.id = 'scroll-progress';
     progressBar.style.cssText = `
@@ -26,14 +31,14 @@ class ScrollProgressIndicator {
 
   setupScrollListener() {
     window.addEventListener('scroll', () => {
-      const windowHeight =
-        document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
       const scrolled = (window.scrollY / windowHeight) * 100;
       this.progressBar.style.width = `${scrolled}%`;
     });
   }
 
   setupNavHighlight() {
+    // Highlight navigation based on scroll position
     const sections = document.querySelectorAll('section[id]');
     const navLinks = document.querySelectorAll('.nav-link');
 
@@ -41,7 +46,8 @@ class ScrollProgressIndicator {
       let current = '';
       sections.forEach(section => {
         const sectionTop = section.offsetTop;
-        if (window.scrollY >= sectionTop - 200) {
+        const sectionHeight = section.clientHeight;
+        if (window.scrollY >= (sectionTop - 200)) {
           current = section.getAttribute('id');
         }
       });
@@ -56,6 +62,9 @@ class ScrollProgressIndicator {
   }
 }
 
+// ===================================
+// Smooth Anchor Scrolling
+// ===================================
 function initSmoothScroll() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -64,20 +73,23 @@ function initSmoothScroll() {
       if (target) {
         target.scrollIntoView({
           behavior: 'smooth',
-          block: 'start',
+          block: 'start'
         });
       }
     });
   });
 }
 
+// ===================================
+// Fade-in Animation on Scroll
+// ===================================
 function initScrollAnimations() {
   const observerOptions = {
     threshold: 0.1,
-    rootMargin: '0px 0px -100px 0px',
+    rootMargin: '0px 0px -100px 0px'
   };
 
-  const observer = new IntersectionObserver(entries => {
+  const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.style.opacity = '1';
@@ -87,10 +99,11 @@ function initScrollAnimations() {
     });
   }, observerOptions);
 
+  // Observe all cards and sections
   const elements = document.querySelectorAll(
-    '.edu-card, .achievement-card, .project-card, .timeline-item, .skill-category, .cert-card, .award-card, .competency-card'
+    '.edu-card, .achievement-card, .project-card, .timeline-item, .skill-category'
   );
-
+  
   elements.forEach(element => {
     element.style.opacity = '0';
     element.style.transform = 'translateY(30px)';
@@ -99,9 +112,12 @@ function initScrollAnimations() {
   });
 }
 
+// ===================================
+// Navbar Background on Scroll
+// ===================================
 function initNavbarScroll() {
   const navbar = document.querySelector('.navbar');
-
+  
   window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
       navbar.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
@@ -111,13 +127,24 @@ function initNavbarScroll() {
   });
 }
 
+// ===================================
+// Initialize All Features
+// ===================================
 document.addEventListener('DOMContentLoaded', () => {
+  // Initialize scroll progress indicator (Creative Component)
   new ScrollProgressIndicator();
+  
+  // Initialize smooth scrolling
   initSmoothScroll();
+  
+  // Initialize scroll animations
   initScrollAnimations();
+  
+  // Initialize navbar scroll effect
   initNavbarScroll();
-
+  
   console.log('Portfolio initialized successfully!');
 });
 
+// Export for use in other modules
 export { ScrollProgressIndicator, initSmoothScroll, initScrollAnimations };

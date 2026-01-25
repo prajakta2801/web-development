@@ -1,9 +1,10 @@
 # Professional Portfolio Website
 
 **Author:** Prajakta Prasad Avachat  
+**NUID:** 002528450 
 **Email:** avachat.pr@northeastern.edu  
 **Course:** CS 5610 - Web Development  
-**Semester:** Spring 2025  
+**Semester:** Spring 2026  
 **Course Link:** https://johnguerra.co/classes/webDevelopment_spring_2025/
 
 ---
@@ -24,7 +25,16 @@ This project is a professional portfolio website designed to showcase my educati
 ## 📸 Screenshot
 
 ![Portfolio Homepage Screenshot](images/portfolio.png)
+
 *Homepage featuring quote banner, hero section with photo, education, skills, and contact information*
+
+---
+
+## 🎥 Video Demo
+
+**Video Presentation:** [Watch Demo Video](https://northeastern.instructuremedia.com/embed/ca7e892a-d751-4525-a96a-754d57680494)
+
+*3-minute narrated walkthrough of the portfolio website*
 
 ---
 
@@ -32,7 +42,7 @@ This project is a professional portfolio website designed to showcase my educati
 
 **Deployed URL:** [Add your GitHub Pages URL here after deployment]
 
-Example: `https://prajakta2801.github.io/portfolio/`
+Example: `https://prajakta2801.github.io/web-development/project-1-personal-website/`
 
 ---
 
@@ -97,12 +107,6 @@ portfolio/
 
 ## 🏗️ Build Instructions
 
-### Prerequisites
-- Node.js v16 or higher ([Download](https://nodejs.org/))
-- npm (comes with Node.js)
-- Modern web browser
-- Git (optional)
-
 ### Installation Steps
 
 #### 1. Get the Code
@@ -129,10 +133,9 @@ npm run lint
 #### 5. Add Required Files
 
 **Images** (place in `images/` folder):
-- `profile.jpeg` - Your professional photo (500x500px)
-- `northeastern-logo.png` - NEU logo (200x200px)
-- `pune-logo.png` - Pune University logo (200x200px)
-- `favicon.png` - Browser icon (32x32px)
+- `profile.jpeg` - The professional photo (500x500px)
+- `northeastern-university-logo.png` - NEU logo (200x200px)
+- `pune-university-logo.png` - Pune University logo (200x200px)
 - `screenshot.png` - Homepage screenshot (1200x800px)
 
 **Resume** (place in `resume/` folder):
@@ -203,7 +206,7 @@ npm run lint
 
 5. **Access your site**
    - Wait 2-5 minutes for deployment
-   - Visit: `https://prajakta2801.github.io/portfolio/`
+   - Visit: `https://prajakta2801.github.io/web-development/project-1-personal-website/`
    - Update the "Live Demo" link in this README
 
 ---

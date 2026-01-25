@@ -1,161 +1,141 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Prajakta Prasad Avachat" />
-    <meta name="description" content="Technical projects portfolio" />
-    <link rel="icon" type="image/png" href="images/favicon.png" />
-    <title>Projects - Prajakta Avachat</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Prajakta Prasad Avachat">
+  <meta name="description" content="Technical projects portfolio">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <title>Projects - Prajakta Avachat</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom">
-      <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">Portfolio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
-            <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="certifications.html">Certifications</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div class="bg-light py-5 mt-5">
-      <div class="container">
-        <h1 class="display-5 fw-bold">Projects</h1>
-        <p class="lead text-muted">Technical projects and innovations</p>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+          <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="certifications.html">Certifications</a></li>
+        </ul>
       </div>
     </div>
+  </nav>
 
-    <section class="py-5">
-      <div class="container">
-        <!-- FraudBusters -->
-        <div class="card mb-4 border-0 shadow-sm border-start border-primary border-4">
-          <div class="card-body p-4">
-            <div class="d-flex justify-content-between align-items-start mb-3">
-              <h4 class="fw-bold">FraudBusters - Financial Fraud Detection</h4>
-              <span class="badge bg-light text-dark">Oct 2025 - Dec 2025</span>
-            </div>
+  <div class="bg-light py-5 mt-5">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Projects</h1>
+      <p class="lead text-muted">Technical projects and innovations</p>
+    </div>
+  </div>
 
-            <p class="lead">
-              Built an end-to-end ML fraud detection pipeline using data preprocessing, feature
-              engineering, and classification models, trained and evaluated on 10K+ financial
-              transactions.
-            </p>
-
-            <h6 class="mt-4 mb-2">Key Achievements:</h6>
-            <ul>
-              <li>
-                Achieved 80-85% detection accuracy through model evaluation, cross-validation, and
-                hyperparameter tuning, improving reliability and reducing false positives
-              </li>
-            </ul>
-
-            <div class="d-flex flex-wrap gap-2 mt-3">
-              <span class="badge bg-light text-dark">Python</span>
-              <span class="badge bg-light text-dark">Machine Learning</span>
-              <span class="badge bg-light text-dark">Pandas</span>
-              <span class="badge bg-light text-dark">NumPy</span>
-              <span class="badge bg-light text-dark">Scikit-learn</span>
-            </div>
+  <section class="py-5">
+    <div class="container">
+      
+      <h2 class="visually-hidden">Project List</h2>
+      
+      <!-- FraudBusters -->
+      <div class="card mb-4 border-0 shadow-sm border-start border-primary border-4">
+        <div class="card-body p-4">
+          <div class="d-flex justify-content-between align-items-start mb-3">
+            <h3 class="fw-bold">FraudBusters - Financial Fraud Detection</h3>
+            <span class="badge bg-light text-dark">Oct 2025 - Dec 2025</span>
           </div>
-        </div>
+          
+          <p class="lead">
+            Built an end-to-end ML fraud detection pipeline using data preprocessing, feature engineering, 
+            and classification models, trained and evaluated on 10K+ financial transactions.
+          </p>
 
-        <!-- Calendar App -->
-        <div class="card mb-4 border-0 shadow-sm border-start border-primary border-4">
-          <div class="card-body p-4">
-            <div class="d-flex justify-content-between align-items-start mb-3">
-              <h4 class="fw-bold">Calendar Application (Java)</h4>
-              <span class="badge bg-light text-dark">Nov 2025 - Dec 2025</span>
-            </div>
+          <h4 class="mt-4 mb-2">Key Achievements:</h4>
+          <ul>
+            <li>Achieved 80-85% detection accuracy through model evaluation, cross-validation, and hyperparameter tuning, improving reliability and reducing false positives</li>
+          </ul>
 
-            <p class="lead">
-              Developed a Java-based calendar application using OOP principles, collections, and
-              Java Date-Time APIs to support event CRUD operations, scheduling, and conflict
-              handling.
-            </p>
-
-            <h6 class="mt-4 mb-2">Key Achievements:</h6>
-            <ul>
-              <li>
-                Designed a modular architecture, improving code maintainability and reducing future
-                feature extension effort
-              </li>
-            </ul>
-
-            <div class="d-flex flex-wrap gap-2 mt-3">
-              <span class="badge bg-light text-dark">Java</span>
-              <span class="badge bg-light text-dark">OOP</span>
-              <span class="badge bg-light text-dark">Collections</span>
-              <span class="badge bg-light text-dark">Date-Time API</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- AR Snipping Tool -->
-        <div class="card mb-4 border-0 shadow-sm border-start border-primary border-4">
-          <div class="card-body p-4">
-            <div class="d-flex justify-content-between align-items-start mb-3">
-              <h4 class="fw-bold">Augmented Reality Snipping Tool</h4>
-              <span class="badge bg-primary">IEEE Published</span>
-            </div>
-
-            <p class="lead">
-              Enhanced an AR-based image capture and object placement system using advanced pointing
-              techniques, improving precision and user interactivity.
-            </p>
-
-            <h6 class="mt-4 mb-2">Key Achievements:</h6>
-            <ul>
-              <li>
-                Implemented SIFT and U²-Net models in Python for robust object detection and
-                segmentation, leveraging Docker containers to ensure efficient, cross-environment
-                image processing and deployment
-              </li>
-            </ul>
-
-            <div class="d-flex flex-wrap gap-2 mt-3">
-              <span class="badge bg-light text-dark">Python</span>
-              <span class="badge bg-light text-dark">Computer Vision</span>
-              <span class="badge bg-light text-dark">SIFT</span>
-              <span class="badge bg-light text-dark">U²-Net</span>
-              <span class="badge bg-light text-dark">Docker</span>
-            </div>
+          <div class="d-flex flex-wrap gap-2 mt-3">
+            <span class="badge bg-light text-dark">Python</span>
+            <span class="badge bg-light text-dark">Machine Learning</span>
+            <span class="badge bg-light text-dark">Pandas</span>
+            <span class="badge bg-light text-dark">NumPy</span>
+            <span class="badge bg-light text-dark">Scikit-learn</span>
           </div>
         </div>
       </div>
-    </section>
 
-    <footer class="bg-dark text-white py-4">
-      <div class="container text-center">
-        <p class="mb-0">&copy; 2024 Prajakta Avachat. All rights reserved.</p>
+      <!-- Calendar App -->
+      <div class="card mb-4 border-0 shadow-sm border-start border-primary border-4">
+        <div class="card-body p-4">
+          <div class="d-flex justify-content-between align-items-start mb-3">
+            <h3 class="fw-bold">Calendar Application (Java)</h3>
+            <span class="badge bg-light text-dark">Nov 2025 - Dec 2025</span>
+          </div>
+          
+          <p class="lead">
+            Developed a Java-based calendar application using OOP principles, collections, and Java Date-Time 
+            APIs to support event CRUD operations, scheduling, and conflict handling.
+          </p>
+
+          <h4 class="mt-4 mb-2">Key Achievements:</h4>
+          <ul>
+            <li>Designed a modular architecture, improving code maintainability and reducing future feature extension effort</li>
+          </ul>
+
+          <div class="d-flex flex-wrap gap-2 mt-3">
+            <span class="badge bg-light text-dark">Java</span>
+            <span class="badge bg-light text-dark">OOP</span>
+            <span class="badge bg-light text-dark">Collections</span>
+            <span class="badge bg-light text-dark">Date-Time API</span>
+          </div>
+        </div>
       </div>
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="module" src="js/main.js"></script>
-  </body>
+      <!-- AR Snipping Tool -->
+      <div class="card mb-4 border-0 shadow-sm border-start border-primary border-4">
+        <div class="card-body p-4">
+          <div class="d-flex justify-content-between align-items-start mb-3">
+            <h3 class="fw-bold">Augmented Reality Snipping Tool</h3>
+            <span class="badge bg-primary">IEEE Published</span>
+          </div>
+          
+          <p class="lead">
+            Enhanced an AR-based image capture and object placement system using advanced pointing techniques, 
+            improving precision and user interactivity.
+          </p>
+
+          <h4 class="mt-4 mb-2">Key Achievements:</h4>
+          <ul>
+            <li>Implemented SIFT and U²-Net models in Python for robust object detection and segmentation, leveraging Docker containers to ensure efficient, cross-environment image processing and deployment</li>
+          </ul>
+
+          <div class="d-flex flex-wrap gap-2 mt-3">
+            <span class="badge bg-light text-dark">Python</span>
+            <span class="badge bg-light text-dark">Computer Vision</span>
+            <span class="badge bg-light text-dark">SIFT</span>
+            <span class="badge bg-light text-dark">U²-Net</span>
+            <span class="badge bg-light text-dark">Docker</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p class="mb-0">&copy;  Prajakta Avachat. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
 </html>
