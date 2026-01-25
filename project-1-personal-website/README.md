@@ -1,7 +1,7 @@
 # Professional Portfolio Website
 
 **Author:** Prajakta Prasad Avachat  
-**NUID:** 002528450 
+**NUID:** 002528450
 **Email:** avachat.pr@northeastern.edu  
 **Course:** CS 5610 - Web Development  
 **Semester:** Spring 2026  
@@ -24,7 +24,7 @@ This project is a professional portfolio website designed to showcase my educati
 
 ## 📸 Screenshot
 
-![Portfolio Homepage Screenshot](images/portfolio.png)
+![Portfolio Homepage Screenshot](<img src="https://github.com/prajakta2801/web-development/blob/main/project-1-personal-website/images/portfolio.png?raw=true" alt="Portfolio Homepage Screenshot" width="100%">)
 
 *Homepage featuring quote banner, hero section with photo, education, skills, and contact information*
 
@@ -32,7 +32,8 @@ This project is a professional portfolio website designed to showcase my educati
 
 ## 🎥 Video Demo
 
-**Video Presentation:** https://northeastern.instructuremedia.com/embed/ca7e892a-d751-4525-a96a-754d57680494
+**Video Presentation:** [Click here to watch the 3-minute demo video](https://northeastern.instructuremedia.com/embed/ca7e892a-d751-4525-a96a-754d57680494)
+
 
 *3-minute narrated walkthrough of the portfolio website*
 
