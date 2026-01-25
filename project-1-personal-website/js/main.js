@@ -31,7 +31,8 @@ class ScrollProgressIndicator {
 
   setupScrollListener() {
     window.addEventListener('scroll', () => {
-      const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const windowHeight =
+        document.documentElement.scrollHeight - document.documentElement.clientHeight;
       const scrolled = (window.scrollY / windowHeight) * 100;
       this.progressBar.style.width = `${scrolled}%`;
     });
@@ -47,7 +48,7 @@ class ScrollProgressIndicator {
       sections.forEach(section => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
-        if (window.scrollY >= (sectionTop - 200)) {
+        if (window.scrollY >= sectionTop - 200) {
           current = section.getAttribute('id');
         }
       });
@@ -73,7 +74,7 @@ function initSmoothScroll() {
       if (target) {
         target.scrollIntoView({
           behavior: 'smooth',
-          block: 'start'
+          block: 'start',
         });
       }
     });
@@ -86,10 +87,10 @@ function initSmoothScroll() {
 function initScrollAnimations() {
   const observerOptions = {
     threshold: 0.1,
-    rootMargin: '0px 0px -100px 0px'
+    rootMargin: '0px 0px -100px 0px',
   };
 
-  const observer = new IntersectionObserver((entries) => {
+  const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.style.opacity = '1';
@@ -103,7 +104,7 @@ function initScrollAnimations() {
   const elements = document.querySelectorAll(
     '.edu-card, .achievement-card, .project-card, .timeline-item, .skill-category'
   );
-  
+
   elements.forEach(element => {
     element.style.opacity = '0';
     element.style.transform = 'translateY(30px)';
@@ -117,7 +118,7 @@ function initScrollAnimations() {
 // ===================================
 function initNavbarScroll() {
   const navbar = document.querySelector('.navbar');
-  
+
   window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
       navbar.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
@@ -133,16 +134,16 @@ function initNavbarScroll() {
 document.addEventListener('DOMContentLoaded', () => {
   // Initialize scroll progress indicator (Creative Component)
   new ScrollProgressIndicator();
-  
+
   // Initialize smooth scrolling
   initSmoothScroll();
-  
+
   // Initialize scroll animations
   initScrollAnimations();
-  
+
   // Initialize navbar scroll effect
   initNavbarScroll();
-  
+
   console.log('Portfolio initialized successfully!');
 });
 

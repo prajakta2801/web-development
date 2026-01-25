@@ -10,9 +10,11 @@
 ## 1. Project Description
 
 ### Overview
+
 A responsive, professional portfolio website showcasing my educational background, technical skills, work experience, and achievements. The site serves as a digital resume and professional presence for recruiters, employers, and collaborators.
 
 ### Purpose
+
 - Present qualifications in an accessible, visually appealing format
 - Demonstrate web development proficiency through the site itself
 - Provide easy access to resume and contact information
@@ -20,12 +22,14 @@ A responsive, professional portfolio website showcasing my educational backgroun
 - Establish professional online presence
 
 ### Target Audience
+
 - Tech recruiters seeking qualified candidates
 - Hiring managers evaluating technical skills
 - Academic peers and collaborators
 - Potential clients or project partners
 
 ### Key Features
+
 - Responsive design (mobile, tablet, desktop)
 - Interactive quote banner
 - Professional photo and branding
@@ -41,12 +45,14 @@ A responsive, professional portfolio website showcasing my educational backgroun
 ### Persona 1: Sarah - Tech Recruiter
 
 **Demographics:**
+
 - Age: 32
 - Location: Boston, MA
 - Job: Senior Technical Recruiter at tech startup
 - Experience: 8 years in technical recruitment
 
 **Goals:**
+
 - Quickly assess candidate qualifications
 - Find candidates with specific technical skills
 - Verify educational background and certifications
@@ -54,12 +60,14 @@ A responsive, professional portfolio website showcasing my educational backgroun
 - Contact promising candidates efficiently
 
 **Pain Points:**
+
 - Limited time to review each candidate (2-3 minutes)
 - Needs to filter through hundreds of applications
 - Wants clear, scannable information
 - Dislikes cluttered or slow-loading sites
 
 **User Journey:**
+
 1. Arrives via LinkedIn or job board link
 2. Scans homepage for key qualifications
 3. Checks skills match job requirements
@@ -67,6 +75,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
 5. Notes contact information for follow-up
 
 **What Sarah Needs:**
+
 - Clean, professional homepage
 - Quick overview of skills and experience
 - Easy resume download
@@ -78,12 +87,14 @@ A responsive, professional portfolio website showcasing my educational backgroun
 ### Persona 2: David - Hiring Manager
 
 **Demographics:**
+
 - Age: 45
 - Location: San Francisco, CA
 - Job: Engineering Manager at Fortune 500 company
 - Experience: 20 years in software development
 
 **Goals:**
+
 - Evaluate technical depth and project experience
 - Assess problem-solving abilities through projects
 - Verify educational credentials
@@ -91,12 +102,14 @@ A responsive, professional portfolio website showcasing my educational backgroun
 - Determine cultural fit
 
 **Pain Points:**
+
 - Needs detailed project information
 - Wants to see actual work examples
 - Skeptical of generic portfolios
 - Values authenticity and technical accuracy
 
 **User Journey:**
+
 1. Receives portfolio link from recruiter
 2. Reviews educational background
 3. Deep-dives into project details
@@ -105,6 +118,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
 6. Schedules interview if impressed
 
 **What David Needs:**
+
 - Detailed project descriptions with outcomes
 - Clear technical skill categorization
 - Verifiable achievements (certifications, publications)
@@ -116,12 +130,14 @@ A responsive, professional portfolio website showcasing my educational backgroun
 ### Persona 3: Maya - Fellow Graduate Student
 
 **Demographics:**
+
 - Age: 26
 - Location: Boston, MA
 - Job: MS CS student at Northeastern University
 - Experience: Peer, potential collaborator
 
 **Goals:**
+
 - Find collaboration opportunities on projects
 - Get inspiration for own portfolio
 - Network with classmates
@@ -129,12 +145,14 @@ A responsive, professional portfolio website showcasing my educational backgroun
 - Learn about different career paths
 
 **Pain Points:**
+
 - Overwhelmed by job search process
 - Unsure how to present technical work
 - Wants examples of good portfolios
 - Needs networking connections
 
 **User Journey:**
+
 1. Discovers portfolio through class or LinkedIn
 2. Browses overall design and structure
 3. Reviews project ideas for inspiration
@@ -142,6 +160,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
 5. Reaches out via contact form or LinkedIn
 
 **What Maya Needs:**
+
 - Relatable content (student perspective)
 - Clear structure she can learn from
 - Project variety and depth
@@ -153,12 +172,14 @@ A responsive, professional portfolio website showcasing my educational backgroun
 ### Persona 4: Dr. Chen - Academic Advisor/Professor
 
 **Demographics:**
+
 - Age: 52
 - Location: Boston, MA
 - Job: Professor of Computer Science
 - Experience: 25 years in academia and research
 
 **Goals:**
+
 - Evaluate student work quality
 - Assess technical writing ability
 - Review project complexity
@@ -166,12 +187,14 @@ A responsive, professional portfolio website showcasing my educational backgroun
 - Track student progress
 
 **Pain Points:**
+
 - Needs to verify academic claims
 - Wants to see research publications
 - Evaluates professionalism
 - Checks for proper documentation
 
 **User Journey:**
+
 1. Student shares portfolio for recommendation
 2. Reviews academic credentials
 3. Examines project depth and documentation
@@ -179,6 +202,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
 5. Assesses overall professionalism
 
 **What Dr. Chen Needs:**
+
 - Academic credentials prominently displayed
 - Research publications clearly listed
 - Well-documented projects
@@ -192,6 +216,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
 ### Epic 1: First Impression & Navigation
 
 **Story 1.1:** Quick Professional Assessment
+
 - **As a** tech recruiter
 - **I want to** see key qualifications within 10 seconds of landing
 - **So that** I can quickly determine if the candidate matches job requirements
@@ -203,6 +228,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
   - Navigation menu is immediately visible
 
 **Story 1.2:** Easy Navigation
+
 - **As a** hiring manager
 - **I want to** navigate between different sections smoothly
 - **So that** I can find specific information without confusion
@@ -214,6 +240,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
   - Mobile-friendly navigation menu
 
 **Story 1.3:** Professional First Impression
+
 - **As a** visitor
 - **I want to** immediately recognize this as a professional portfolio
 - **So that** I take the candidate seriously
@@ -229,6 +256,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
 ### Epic 2: Content Discovery
 
 **Story 2.1:** Educational Background Review
+
 - **As a** recruiter
 - **I want to** quickly understand educational qualifications
 - **So that** I can verify minimum requirements are met
@@ -240,6 +268,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
   - Dates of attendance included
 
 **Story 2.2:** Skills Assessment
+
 - **As a** hiring manager
 - **I want to** see all technical skills organized by category
 - **So that** I can match skills to job requirements
@@ -251,6 +280,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
   - Easy to scan and compare
 
 **Story 2.3:** Project Exploration
+
 - **As a** technical interviewer
 - **I want to** understand project complexity and outcomes
 - **So that** I can prepare relevant technical questions
@@ -266,6 +296,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
 ### Epic 3: Credential Verification
 
 **Story 3.1:** Certification Review
+
 - **As a** hiring manager
 - **I want to** verify professional certifications
 - **So that** I can confirm claimed qualifications
@@ -277,6 +308,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
   - Easy to cross-reference with resume
 
 **Story 3.2:** Achievement Validation
+
 - **As a** professor
 - **I want to** see publications and academic achievements
 - **So that** I can write accurate recommendation letters
@@ -292,6 +324,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
 ### Epic 4: Contact & Engagement
 
 **Story 4.1:** Resume Download
+
 - **As a** recruiter
 - **I want to** download the resume with one click
 - **So that** I can upload it to our ATS system
@@ -303,6 +336,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
   - Button visible on homepage
 
 **Story 4.2:** Multiple Contact Options
+
 - **As a** potential employer
 - **I want to** contact the candidate through my preferred method
 - **So that** I can reach out efficiently
@@ -314,6 +348,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
   - Contact section easy to find
 
 **Story 4.3:** Quick Networking
+
 - **As a** fellow student
 - **I want to** easily connect on professional networks
 - **So that** I can build my network and collaborate
@@ -329,6 +364,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
 ### Epic 5: Mobile Experience
 
 **Story 5.1:** Mobile Browsing
+
 - **As a** recruiter reviewing on my phone
 - **I want to** access all information on mobile
 - **So that** I can review candidates during my commute
@@ -340,6 +376,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
   - Buttons are touch-friendly
 
 **Story 5.2:** Fast Loading
+
 - **As a** visitor on slow connection
 - **I want to** have the page load quickly
 - **So that** I don't abandon the site

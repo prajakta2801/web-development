@@ -1,7 +1,7 @@
 # Professional Portfolio Website
 
 **Author:** Prajakta Prasad Avachat  
-**NUID:** 002528450
+**NUID:** 002528450  
 **Email:** avachat.pr@northeastern.edu  
 **Course:** CS 5610 - Web Development  
 **Semester:** Spring 2026  
@@ -14,6 +14,7 @@
 This project is a professional portfolio website designed to showcase my educational background, technical skills, professional experience, and key achievements. The website serves as a comprehensive digital resume for potential employers, recruiters, and collaborators.
 
 **Key Goals:**
+
 - Present professional information in a clean, accessible format
 - Demonstrate web development skills (HTML5, CSS3, JavaScript, Bootstrap 5)
 - Showcase technical competencies through organized skill categories
@@ -24,9 +25,10 @@ This project is a professional portfolio website designed to showcase my educati
 
 ## 📸 Screenshot
 
-[Portfolio Homepage Screenshot](images/portfolio.png)
+![Portfolio Homepage Screenshot](images/portfolio.png)
 
-*Homepage featuring quote banner, hero section with photo, education, skills, and contact information*
+_Homepage featuring quote banner, hero section with photo, education, skills, and contact information_
+
 
 ---
 
@@ -35,7 +37,7 @@ This project is a professional portfolio website designed to showcase my educati
 **Video Presentation:**  
 [Click here to watch the video](https://drive.google.com/file/d/1-SXUevZtiKyZjnDLzAQ1q0QTUQizQ0Rl/view?usp=sharing)
 
-*3-minute narrated walkthrough of the portfolio website*
+_3-minute narrated walkthrough of the portfolio website_
 
 ---
 
@@ -87,16 +89,19 @@ portfolio/
 ## 🛠️ Technologies Used
 
 ### Frontend
+
 - **HTML5** - Semantic markup, accessibility features
 - **CSS3** - Custom properties, flexbox, animations
 - **JavaScript (ES6+)** - Modules, classes, modern features
 - **Bootstrap 5.3.2** - Responsive grid, components
 
 ### Libraries
+
 - **Chart.js 4.4.0** - Data visualization (pie chart)
 - **Google Fonts (Inter)** - Professional typography
 
 ### Development Tools
+
 - **ESLint** - JavaScript linting
 - **Prettier** - Code formatting
 - **Git** - Version control
@@ -109,22 +114,26 @@ portfolio/
 ### Installation Steps
 
 #### 1. Get the Code
+
 ```bash
 git clone https://github.com/prajakta2801/web-development.git
 cd web-development/project-1-personal-website
 ```
 
 #### 2. Install Dependencies
+
 ```bash
 npm install
 ```
 
 #### 3. Format Code
+
 ```bash
 npm run format
 ```
 
 #### 4. Run Linting
+
 ```bash
 npm run lint
 ```
@@ -132,20 +141,24 @@ npm run lint
 #### 5. Add Required Files
 
 **Images** (place in `images/` folder):
+
 - `profile.jpeg` - The professional photo (500x500px)
 - `northeastern-university-logo.png` - NEU logo (200x200px)
 - `pune-university-logo.png` - Pune University logo (200x200px)
 - `screenshot.png` - Homepage screenshot (1200x800px)
 
 **Resume** (place in `resume/` folder):
+
 - `Resume_Prajakta_Avachat.pdf` - Your resume PDF
 
 #### 6. View the Website
 
 **Option A: Direct Opening**
+
 - Double-click `index.html`
 
 **Option B: Local Server (Recommended)**
+
 ```bash
 # Python
 python -m http.server 8000
@@ -162,11 +175,13 @@ Navigate to: `http://localhost:8000`
 #### 7. Validate Code
 
 **HTML Validation:**
+
 - Visit: https://validator.w3.org/nu/
 - Upload each HTML file
 - Should show: 0 errors, 0 warnings
 
 **JavaScript Validation:**
+
 ```bash
 npm run lint
 # Expected: 0 errors
@@ -177,6 +192,7 @@ npm run lint
 ## 🚀 Deployment to GitHub Pages
 
 1. **Initialize Git repository**
+
    ```bash
    git init
    git add .
@@ -190,6 +206,7 @@ npm run lint
    - Don't initialize with README (you already have one)
 
 3. **Push to GitHub**
+
    ```bash
    git remote add origin https://github.com/prajakta2801/web-development.git
    git branch -M main
@@ -240,7 +257,7 @@ Create a professional certifications and awards page using Bootstrap 5. Include:
 - Awards (PTC Applause 3x, University rank)
 - Skills competency bars with percentage indicators
 
-Requirements: Responsive design, professional card layouts, icons, 
+Requirements: Responsive design, professional card layouts, icons,
 animated progress bars, consistent with existing portfolio styling.
 ```
 
