@@ -32,7 +32,7 @@ This project is a professional portfolio website designed to showcase my educati
 
 ## 🎥 Video Demo
 
-**Video Presentation:** [Watch Demo Video](https://northeastern.instructuremedia.com/embed/ca7e892a-d751-4525-a96a-754d57680494)
+**Video Presentation:** https://northeastern.instructuremedia.com/embed/ca7e892a-d751-4525-a96a-754d57680494
 
 *3-minute narrated walkthrough of the portfolio website*
 
@@ -40,9 +40,7 @@ This project is a professional portfolio website designed to showcase my educati
 
 ## 🚀 Live Demo
 
-**Deployed URL:** [Add your GitHub Pages URL here after deployment]
-
-Example: `https://prajakta2801.github.io/web-development/project-1-personal-website/`
+**Deployed URL:** https://prajakta2801.github.io/web-development/project-1-personal-website/
 
 ---
 
