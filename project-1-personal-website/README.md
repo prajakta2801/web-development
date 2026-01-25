@@ -24,7 +24,7 @@ This project is a professional portfolio website designed to showcase my educati
 
 ## 📸 Screenshot
 
-![Portfolio Homepage Screenshot](images/portfolio.png)
+[Portfolio Homepage Screenshot](images/portfolio.png)
 
 *Homepage featuring quote banner, hero section with photo, education, skills, and contact information*
 
