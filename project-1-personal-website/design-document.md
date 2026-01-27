@@ -30,7 +30,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
 
 ### Key Features
 
-- Responsive design 
+- Responsive design
 - Interactive quote banner
 - Professional photo and branding
 - Downloadable resume
@@ -61,7 +61,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
 
 **Pain Points:**
 
-- Limited time to review each candidate 
+- Limited time to review each candidate
 - Needs to filter through hundreds of applications
 - Wants clear, scannable information
 - Dislikes cluttered or slow-loading sites
@@ -397,7 +397,7 @@ The portfolio consists of 4 main pages:
 
 ---
 
-### Homepage Wireframe 
+### Homepage Wireframe
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
@@ -480,7 +480,7 @@ The portfolio consists of 4 main pages:
 ┌────────────────────────────────────────────────────────────────┐
 │                    GET IN TOUCH                                │
 │  ┌─────────────────────┐  ┌─────────────────────┐              │
-│  │ Contact Info:       │  │ Connect With Me:    │              │ 
+│  │ Contact Info:       │  │ Connect With Me:    │              │
 │  │    Email            │  │ [LinkedIn Button]   │              │
 │  │    Phone            │  │ [GitHub Button]     │              │
 │  │    Location         │  │ [Email Button]      │              │
@@ -547,7 +547,7 @@ The portfolio consists of 4 main pages:
 
 ---
 
-### Certifications Page Wireframe 
+### Certifications Page Wireframe
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
