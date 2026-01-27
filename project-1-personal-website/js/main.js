@@ -24,19 +24,28 @@ class ScrollProgressIndicator {
       width: 0%;
       z-index: 9999;
       transition: width 0.1s ease;
-    `;
+    ;
     document.body.appendChild(progressBar);
     this.progressBar = progressBar;
   }
 
   setupScrollListener() {
-    window.addEventListener('scroll', () => {
-      const windowHeight =
-        document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      const scrolled = (window.scrollY / windowHeight) * 100;
-      this.progressBar.style.width = `${scrolled}%`;
-    });
-  }
+  let ticking = false;
+  
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        const windowHeight =
+          document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = (window.scrollY / windowHeight) * 100;
+        this.progressBar.style.width = `${scrolled}%`;
+        ticking = false;
+      });
+      ticking = true;
+    }
+  });
+}
+
 
   setupNavHighlight() {
     // Highlight navigation based on scroll position
