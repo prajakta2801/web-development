@@ -71,7 +71,7 @@ portfolio/
 │   ├── favicon.png            # Browser tab icon
 │   └── screenshot.png         # Homepage screenshot
 │
-├── resume/
+├── documents/
 │   └── Resume_Prajakta_Avachat.pdf  # Downloadable resume
 │
 ├── design-document.md     # Design planning document
@@ -97,7 +97,7 @@ portfolio/
 
 ### Libraries
 
-- **Chart.js 4.4.0** - Data visualization (pie chart)
+- **Chart.js 4.4.0** - Data visualization 
 - **Google Fonts (Inter)** - Professional typography
 
 ### Development Tools
@@ -142,10 +142,10 @@ npm run lint
 
 **Images** (place in `images/` folder):
 
-- `profile.jpeg` - The professional photo (500x500px)
-- `northeastern-university-logo.png` - NEU logo (200x200px)
-- `pune-university-logo.png` - Pune University logo (200x200px)
-- `screenshot.png` - Homepage screenshot (1200x800px)
+- `profile.jpeg` - The professional photo 
+- `northeastern-university-logo.png` - NEU logo 
+- `pune-university-logo.png` - Pune University logo 
+- `screenshot.png` - Homepage screenshot 
 
 **Resume** (place in `resume/` folder):
 
@@ -203,7 +203,6 @@ npm run lint
    - Go to github.com
    - Click "New repository"
    - Name it: `portfolio`
-   - Don't initialize with README (you already have one)
 
 3. **Push to GitHub**
 
@@ -223,7 +222,6 @@ npm run lint
 5. **Access your site**
    - Wait 2-5 minutes for deployment
    - Visit: `https://prajakta2801.github.io/web-development/project-1-personal-website/`
-   - Update the "Live Demo" link in this README
 
 ---
 
@@ -289,6 +287,6 @@ All content and refinements were provided manually:
 
 ### Academic Integrity Statement
 
-All credentials, achievements, and qualifications listed on this portfolio are authentic and verifiable. AI was utilized solely for HTML/CSS structure generation, not for content creation or credential fabrication.
+All credentials, achievements, and qualifications listed on this portfolio are authentic and verifiable. AI was utilized solely for HTML/CSS structure generation.
 
 ---
