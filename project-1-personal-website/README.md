@@ -55,13 +55,13 @@ portfolio/
 ├── index.html             # Homepage with hero, education, skills, contact
 ├── experience.html        # Professional work experience timeline
 ├── projects.html          # Technical projects showcase
-├── certifications.html    # Certifications & awards (AI-generated)
+├── certifications.html    # Certifications & awards
 │
 ├── css/
 │   └── style.css          # Custom styles and responsive design
 │
 ├── js/
-│   ├── main.js            # Scroll progress indicator (120+ lines)
+│   ├── main.js            # Scroll progress indicator
 │   └── skillsChart.js     # Chart.js visualization
 │
 ├── images/
