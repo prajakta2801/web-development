@@ -52,8 +52,8 @@ _3-minute narrated walkthrough of the portfolio website_
 
 ```
 portfolio/
-├── index.html              # Homepage with hero, education, skills, contact
-├── experience.html         # Professional work experience timeline
+├── index.html             # Homepage with hero, education, skills, contact
+├── experience.html        # Professional work experience timeline
 ├── projects.html          # Technical projects showcase
 ├── certifications.html    # Certifications & awards (AI-generated)
 │
