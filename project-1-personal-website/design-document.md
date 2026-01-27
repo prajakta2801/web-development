@@ -397,7 +397,7 @@ The portfolio consists of 4 main pages:
 
 ---
 
-### Homepage Wireframe (Desktop)
+### Homepage Wireframe 
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
@@ -405,10 +405,10 @@ The portfolio consists of 4 main pages:
 └────────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│  "Data will talk to you if you're willing to listen."         │ ← Quote Banner
+│                                                                │
+│  "Data will talk to you if you're willing to listen."          │ ← Quote Banner
 │                      — Jim Bergeson                            │
-│                                                                 │
+│                                                                │
 └────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────┬──────────────────────────┐
@@ -547,7 +547,7 @@ The portfolio consists of 4 main pages:
 
 ---
 
-### Certifications Page Wireframe (AI-Generated)
+### Certifications Page Wireframe 
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
