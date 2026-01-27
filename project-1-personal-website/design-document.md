@@ -1,6 +1,6 @@
 # Portfolio Website - Design Document
 
-**Project Name:** Professional Portfolio Website  
+**Project Name:** Prajakta Avachat's Portfolio  
 **Author:** Prajakta Prasad Avachat  
 **Course:** CS 5610 Web Development  
 **Date:** January 2026
@@ -30,7 +30,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
 
 ### Key Features
 
-- Responsive design (mobile, tablet, desktop)
+- Responsive design 
 - Interactive quote banner
 - Professional photo and branding
 - Downloadable resume
@@ -61,7 +61,7 @@ A responsive, professional portfolio website showcasing my educational backgroun
 
 **Pain Points:**
 
-- Limited time to review each candidate (2-3 minutes)
+- Limited time to review each candidate 
 - Needs to filter through hundreds of applications
 - Wants clear, scannable information
 - Dislikes cluttered or slow-loading sites
@@ -361,34 +361,6 @@ A responsive, professional portfolio website showcasing my educational backgroun
 
 ---
 
-### Epic 5: Mobile Experience
-
-**Story 5.1:** Mobile Browsing
-
-- **As a** recruiter reviewing on my phone
-- **I want to** access all information on mobile
-- **So that** I can review candidates during my commute
-- **Acceptance Criteria:**
-  - Fully responsive design
-  - Text readable without zooming
-  - Images scale appropriately
-  - Navigation menu works on mobile
-  - Buttons are touch-friendly
-
-**Story 5.2:** Fast Loading
-
-- **As a** visitor on slow connection
-- **I want to** have the page load quickly
-- **So that** I don't abandon the site
-- **Acceptance Criteria:**
-  - Page loads in under 3 seconds
-  - Images optimized for web
-  - Minimal external dependencies
-  - No unnecessary animations blocking content
-  - Progressive content loading
-
----
-
 ## 4. Design Mockups
 
 ### Site Structure
@@ -443,77 +415,77 @@ The portfolio consists of 4 main pages:
 │  Prajakta Prasad Avachat            │                          │
 │  Product Ops | Data Analytics       │      ┌────────────┐      │
 │                                     │      │            │      │
-│  ┌───────────────────────────────┐ │      │   PHOTO    │      │ ← Hero Section
-│  │ I've always been fascinated   │ │      │  (Circular) │      │
-│  │ by technology...              │ │      │            │      │
-│  │                               │ │      └────────────┘      │
-│  │ [2 paragraphs of bio]         │ │                          │
-│  └───────────────────────────────┘ │                          │
+│  ┌───────────────────────────────┐  │      │   PHOTO    │      │ ← Hero Section
+│  │ I've always been fascinated   │  │      │  (Circular)│      │
+│  │ by technology...              │  │      │            │      │
+│  │                               │  │      └────────────┘      │
+│  │ [2 paragraphs of bio]         │  │                          │
+│  └───────────────────────────────┘  │                          │
 │                                     │                          │
 │  [Email] [LinkedIn] [GitHub]        │                          │
 │  [Download Resume]                  │                          │
 └─────────────────────────────────────┴──────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────┐
-│                        EDUCATION                                │
-│                                                                 │
+│                        EDUCATION                               │
+│                                                                │
 │  ┌──────────────────────────────────────────────────────────┐  │
 │  │  [NEU Logo]                                              │  │
 │  │  Master of Science in Computer Science                   │  │
 │  │  Northeastern University, Boston, MA                     │  │
-│  │  Sep 2025 - Apr 2027 | GPA: 3.83/4.0                    │  │
-│  │  Coursework: [Tag] [Tag] [Tag] [Tag]                    │  │
+│  │  Sep 2025 - Apr 2027 | GPA: 3.83/4.0                     │  │
+│  │  Coursework: [Tag] [Tag] [Tag] [Tag]                     │  │
 │  └──────────────────────────────────────────────────────────┘  │
-│                                                                 │
+│                                                                │
 │  ┌──────────────────────────────────────────────────────────┐  │
 │  │  [Pune Logo]                                             │  │
 │  │  Bachelor of Engineering in IT (Honors Data Science)     │  │
 │  │  Savitribai Phule Pune University                        │  │
-│  │  Aug 2019 - Sep 2023 | GPA: 3.83/4.0                    │  │
-│  │  Coursework: [Tag] [Tag] [Tag] [Tag] [Tag]...           │  │
+│  │  Aug 2019 - Sep 2023 | GPA: 3.83/4.0                     │  │
+│  │  Coursework: [Tag] [Tag] [Tag] [Tag] [Tag]...            │  │
 │  └──────────────────────────────────────────────────────────┘  │
 └────────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────┐
-│                    TECHNICAL SKILLS                             │
-│                                                                 │
+│                    TECHNICAL SKILLS                            │
+│                                                                │
 │  ┌──────────────────────────────────────────────────────────┐  │
 │  │  Programming & Analytics                                 │  │
-│  │  [Python] [R] [Pandas] [NumPy] [Matplotlib]             │  │
+│  │  [Python] [R] [Pandas] [NumPy] [Matplotlib]              │  │
 │  └──────────────────────────────────────────────────────────┘  │
 │  ┌──────────────────────────────────────────────────────────┐  │
 │  │  Data Visualization & BI                                 │  │
-│  │  [Tableau] [Power BI] [Dashboard Design]                │  │
+│  │  [Tableau] [Power BI] [Dashboard Design]                 │  │
 │  └──────────────────────────────────────────────────────────┘  │
 │  [... more skill categories ...]                               │
 └────────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────┐
-│                      LANGUAGES                                  │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐            │
-│  │ English     │  │ Hindi       │  │ Marathi     │            │
-│  │ Professional│  │ Native      │  │ Native      │            │
-│  └─────────────┘  └─────────────┘  └─────────────┘            │
+│                      LANGUAGES                                 │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
+│  │ English     │  │ Hindi       │  │ Marathi     │             │
+│  │ Professional│  │ Native      │  │ Native      │             │
+│  └─────────────┘  └─────────────┘  └─────────────┘             │
 └────────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────┐
-│                   KEY ACHIEVEMENTS                              │
-│  ┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐               │
-│  │        │  │        │  │        │  │        │               │
-│  │  IEEE  │  │  PTC   │  │ Azure  │  │ Google │               │
-│  │  Paper │  │ Award  │  │ Cert   │  │ BI Cert│               │
-│  └────────┘  └────────┘  └────────┘  └────────┘               │
+│                   KEY ACHIEVEMENTS                             │
+│  ┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐                │
+│  │        │  │        │  │        │  │        │                │
+│  │  IEEE  │  │  PTC   │  │ Azure  │  │ Google │                │
+│  │  Paper │  │ Award  │  │ Cert   │  │ BI Cert│                │
+│  └────────┘  └────────┘  └────────┘  └────────┘                │
 └────────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────┐
-│                    GET IN TOUCH                                 │
-│  ┌─────────────────────┐  ┌─────────────────────┐             │
-│  │ Contact Info:       │  │ Connect With Me:    │             │
-│  │    Email            │  │ [LinkedIn Button]   │             │
-│  │    Phone            │  │ [GitHub Button]     │             │
-│  │    Location         │  │ [Email Button]      │             │
-│  └─────────────────────┘  │ [Download Resume]   │             │
-│                           └─────────────────────┘             │
+│                    GET IN TOUCH                                │
+│  ┌─────────────────────┐  ┌─────────────────────┐              │
+│  │ Contact Info:       │  │ Connect With Me:    │              │ 
+│  │    Email            │  │ [LinkedIn Button]   │              │
+│  │    Phone            │  │ [GitHub Button]     │              │
+│  │    Location         │  │ [Email Button]      │              │
+│  └─────────────────────┘  │ [Download Resume]   │              │
+│                           └─────────────────────┘              │
 └────────────────────────────────────────────────────────────────┘
 ```
 
@@ -527,25 +499,25 @@ The portfolio consists of 4 main pages:
 └────────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────┐
-│               PROFESSIONAL EXPERIENCE                           │
-│               Career history and accomplishments                │
+│               PROFESSIONAL EXPERIENCE                          │
+│               Career history and accomplishments               │
 └────────────────────────────────────────────────────────────────┘
 
 │  ┌──────────────────────────────────────────────────────────┐
-│  │  ● Analyst                              July 2022 - Aug 2025│
-├──┤    PTC Inc, Pune, India                                    │
-│  │    • Bullet point 1                                        │
-│  │    • Bullet point 2                                        │
-│  │    • Bullet point 3                                        │
-│  │    [Python] [Selenium] [Azure] [Docker]                   │
+│  │  ● Analyst                           July 2022 - Aug 2025│
+├──┤    PTC Inc, Pune, India                                  │
+│  │    • Bullet point 1                                      │
+│  │    • Bullet point 2                                      │
+│  │    • Bullet point 3                                      │
+│  │    [Python] [Selenium] [Azure] [Docker]                  │
 │  └──────────────────────────────────────────────────────────┘
 │
 │  ┌──────────────────────────────────────────────────────────┐
-│  │  ● Web Development Intern           Sep 2021 - May 2022   │
-├──┤    PCET's Digital Marketing                               │
-│  │    • Bullet point 1                                        │
-│  │    • Bullet point 2                                        │
-│  │    [HTML] [CSS] [JavaScript]                              │
+│  │  ● Web Development Intern           Sep 2021 - May 2022  │
+├──┤    PCET's Digital Marketing                              │
+│  │    • Bullet point 1                                      │
+│  │    • Bullet point 2                                      │
+│  │    [HTML] [CSS] [JavaScript]                             │
 │  └──────────────────────────────────────────────────────────┘
 ```
 
@@ -555,19 +527,19 @@ The portfolio consists of 4 main pages:
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
-│                      PROJECTS                                   │
-│              Technical projects and innovations                 │
+│                      PROJECTS                                  │
+│              Technical projects and innovations                │
 └────────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────┐
 │ │ FraudBusters - Financial Fraud Detection  Oct 2025 - Dec 2025│
-│ │                                                               │
+│ │                                                              │
 │ │ Description paragraph...                                     │
-│ │                                                               │
+│ │                                                              │
 │ │ Key Achievements:                                            │
 │ │ • Achievement 1                                              │
-│ │                                                               │
-│ │ [Python] [ML] [Pandas] [NumPy]                              │
+│ │                                                              │
+│ │ [Python] [ML] [Pandas] [NumPy]                               │
 └────────────────────────────────────────────────────────────────┘
 
 [Similar cards for Calendar App and AR Tool]
@@ -579,7 +551,7 @@ The portfolio consists of 4 main pages:
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
-│              CERTIFICATIONS & AWARDS                            │
+│              CERTIFICATIONS & AWARDS                           │
 └────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────┬──────────────────────────────┐
@@ -601,7 +573,7 @@ The portfolio consists of 4 main pages:
 └─────────────────────────────────┴──────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────┐
-│  Skills Competency Overview                                     │
+│  Skills Competency Overview                                    │
 │  ┌──────────────────────────────────────────────────────────┐  │
 │  │ Test Automation & QA                                     │  │
 │  │ ████████████████████████████░░░░░░ 95%                   │  │
